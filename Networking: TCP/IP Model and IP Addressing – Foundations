@@ -1,0 +1,140 @@
+# TCP/IP Model and IP Addressing – Foundations
+
+## Context
+This note builds on the conceptual ISO/OSI model by introducing the **TCP/IP model**, the **implemented networking model** underlying the modern Internet.  
+The goal is to understand how networking concepts translate into **real-world architectures**, supporting **cybersecurity governance, risk assessment, and compliance activities** rather than hands-on network engineering.
+
+---
+
+## The TCP/IP Model – Background
+
+The **TCP/IP model** (Transmission Control Protocol / Internet Protocol) was developed in the **1970s by the U.S. Department of Defense (DoD)**.  
+A core design objective was **resilience**: the network should continue operating even if parts are damaged or unavailable — a property achieved through **adaptive routing**.
+
+This resilience principle remains central today for:
+- Critical infrastructure
+- Cloud and distributed systems
+- Business continuity and disaster recovery planning
+
+---
+
+## TCP/IP Layers (Top-Down View)
+
+Unlike the OSI model’s seven layers, the TCP/IP model groups functionality into **four main layers**:
+
+1. **Application Layer**
+   - Combines OSI layers 5, 6, and 7
+   - Examples: HTTP, HTTPS, FTP, SMTP, IMAP, DNS, SSH
+
+2. **Transport Layer**
+   - Corresponds to OSI layer 4
+   - Protocols: TCP, UDP
+
+3. **Internet Layer**
+   - Corresponds to OSI layer 3
+   - Protocols: IP, ICMP, IPSec
+
+4. **Link Layer**
+   - Corresponds to OSI layer 2
+   - Technologies: Ethernet (802.3), Wi-Fi (802.11)
+
+Many modern references also describe a **five-layer model** by separating the **Physical layer**, but conceptually this does not change governance or risk analysis.
+
+---
+
+## Mapping OSI and TCP/IP Models
+
+| OSI Layer | TCP/IP Layer | Example Protocols |
+|---------|-------------|-------------------|
+| Application / Presentation / Session (7–5) | Application | HTTP, SMTP, DNS, SSH |
+| Transport (4) | Transport | TCP, UDP |
+| Network (3) | Internet | IP, ICMP, IPSec |
+| Data Link (2) | Link | Ethernet, Wi-Fi |
+| Physical (1) | Physical (sometimes explicit) | Cables, radio signals |
+
+---
+
+## IP Addressing – Core Concepts
+
+In the TCP/IP model, every host requires a **unique IP address** to communicate unambiguously on a network.
+
+### IPv4 Basics
+- IPv4 uses **32 bits**, divided into **four octets**
+- Each octet ranges from **0 to 255**
+- Example: `192.168.66.89`
+
+Key reserved addresses within a subnet:
+- **Network address** (e.g. `192.168.66.0`)
+- **Broadcast address** (e.g. `192.168.66.255`)
+
+This addressing limitation (≈ 2³² addresses) explains the later development of IPv6.
+
+---
+
+## Subnetting (Conceptual View)
+
+A subnet mask defines which part of an IP address identifies the network.
+
+Example:
+- `255.255.255.0` = `/24`
+- First 24 bits define the network
+- Usable host range: `.1` to `.254`
+
+Understanding subnetting is important for:
+- Network segmentation
+- Limiting attack surfaces
+- Applying security zoning principles
+
+---
+
+## Private vs Public IP Addresses
+
+### Private IP Ranges (RFC 1918)
+
+| Range | CIDR |
+|-----|------|
+| 10.0.0.0 – 10.255.255.255 | 10/8 |
+| 172.16.0.0 – 172.31.255.255 | 172.16/12 |
+| 192.168.0.0 – 192.168.255.255 | 192.168/16 |
+
+Private IPs:
+- Are **not routable on the public Internet**
+- Require **Network Address Translation (NAT)** to access external networks
+
+---
+
+## Routing – Conceptual Overview
+
+Routers operate at the **Internet (Layer 3)** level:
+- Inspect destination IP addresses
+- Forward packets along optimal paths
+- Adapt dynamically to topology changes
+
+From a governance perspective, routing resilience is essential for:
+- Availability requirements
+- Incident containment
+- Continuity of critical services
+
+---
+
+## Relevance to Cybersecurity Governance & Risk (GRC)
+
+Understanding TCP/IP concepts supports GRC activities by enabling:
+
+- **Risk assessment**
+  - Identifying exposure at network and transport layers
+- **NIS2 compliance**
+  - Evaluating network resilience and segmentation
+- **ISO 27001 alignment**
+  - Supporting controls related to communications security and network protection
+- **Third-party risk**
+  - Understanding cloud, SaaS, and service provider dependencies
+- **Incident analysis**
+  - Interpreting routing failures, IP misconfigurations, and network outages
+
+---
+
+## Key Takeaway
+
+The TCP/IP model translates abstract networking concepts into **operational reality**.  
+A solid conceptual understanding enables more effective **dialogue between governance, security, and technical teams**, strengthening risk-based decision-making without requiring deep network engineering specialization.
