@@ -1,0 +1,142 @@
+# Networking Concepts – OSI Model (Foundations)
+
+## Context
+This note documents my learning from an introductory networking module focused on the **OSI (Open Systems Interconnection) model** and the **TCP/IP protocol suite**.  
+The objective is not deep technical specialization, but building **technical literacy** to support **cybersecurity governance, risk assessment, and compliance activities**.
+
+---
+
+## The OSI Model – Overview
+
+The OSI model is a **conceptual framework** developed by ISO that explains how data is transmitted across a network by dividing communication into **seven layers**.  
+While theoretical, it is widely used to:
+- Understand how networked systems interact
+- Classify security controls and incidents
+- Support structured risk analysis and incident reporting
+
+**Mnemonic:** *Please Do Not Throw Spinach Pizza Away*
+
+| Layer | Name | Core Function |
+|-----|------|---------------|
+| 7 | Application | Services used directly by applications |
+| 6 | Presentation | Encoding, encryption, compression |
+| 5 | Session | Session establishment and management |
+| 4 | Transport | End-to-end communication |
+| 3 | Network | Logical addressing and routing |
+| 2 | Data Link | Communication within the same network segment |
+| 1 | Physical | Physical transmission of data |
+
+---
+
+## Layer-by-Layer Summary
+
+### Layer 1 – Physical
+- Concerned with **physical transmission media**
+- Examples: Ethernet cables, fiber optics, Wi-Fi radio frequencies
+- Signals can be electrical, optical, or wireless
+
+**Governance relevance:**  
+Physical security controls (e.g. secure cabling, data center access) relate to **ISO 27001 physical and environmental security controls**.
+
+---
+
+### Layer 2 – Data Link
+- Enables communication between devices on the **same network segment**
+- Uses **MAC addresses** (6 bytes, vendor-based)
+- Protocols: Ethernet (802.3), Wi-Fi (802.11)
+
+**Governance relevance:**  
+Misconfigurations at this layer can lead to **lateral movement risks**, relevant for internal network segmentation and access control policies.
+
+---
+
+### Layer 3 – Network
+- Handles **routing and logical addressing** between different networks
+- Protocols: IP, ICMP, IPSec, VPNs
+
+**Governance relevance:**  
+Layer 3 is central to:
+- Network segmentation strategies
+- Secure interconnection between sites
+- VPN governance and remote access risk
+
+---
+
+### Layer 4 – Transport
+- Provides **end-to-end communication** between applications
+- Protocols: TCP, UDP
+- Supports flow control, segmentation, and error handling
+
+**Governance relevance:**  
+Transport-layer understanding supports:
+- Risk assessments related to exposed services
+- Evaluation of secure communication requirements (e.g. encrypted channels)
+
+---
+
+### Layer 5 – Session
+- Establishes and manages sessions between applications
+- Ensures synchronization and recovery
+- Examples: RPC, NFS
+
+**Governance relevance:**  
+Session management weaknesses can contribute to **availability risks** and unauthorized persistence.
+
+---
+
+### Layer 6 – Presentation
+- Responsible for **encoding, encryption, and compression**
+- Examples: Unicode, MIME, JPEG, PNG
+
+**Governance relevance:**  
+Directly linked to:
+- Encryption policies
+- Data protection measures under **GDPR**
+- Secure data handling requirements
+
+---
+
+### Layer 7 – Application
+- Closest to the end user
+- Protocols: HTTP, HTTPS, FTP, DNS, SMTP, IMAP
+
+**Governance relevance:**  
+Many **cyber incidents and compliance risks** originate at this layer:
+- Web application vulnerabilities (e.g. OWASP Top 10)
+- Data exposure risks
+- Logging and monitoring obligations
+
+---
+
+## OSI Model and Cybersecurity Governance
+
+Understanding the OSI model supports governance work by enabling:
+
+- **Structured risk assessment:**  
+  Mapping threats and controls to specific layers
+- **Clear communication:**  
+  Aligning technical findings with management and auditors
+- **Control classification:**  
+  Supporting ISO 27001 Annex A control mapping
+- **Incident analysis:**  
+  Identifying where failures occurred (network, application, encryption, etc.)
+
+---
+
+## Link to Regulatory Frameworks
+
+- **ISO/IEC 27001:**  
+  Helps contextualize technical controls across network, system, and application layers
+- **NIS2:**  
+  Supports assessment of network and information system resilience
+- **Third-party risk:**  
+  Understanding layered dependencies in cloud and SaaS environments
+- **Risk management:**  
+  Improves evaluation of likelihood and impact across technical domains
+
+---
+
+## Key Takeaway
+
+The OSI model provides a **shared language** between technical teams and governance, risk, and compliance functions.  
+This foundational understanding supports more effective **risk identification, control evaluation, and regulatory alignment**, without requiring deep operational specialization.
