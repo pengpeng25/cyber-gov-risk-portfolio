@@ -1,0 +1,86 @@
+# A.5.8 – Information Security in Project Management
+
+**Clause:** ISO/IEC 27001, A.5.8  
+**Title:** Information Security in Project Management
+
+---
+
+## One-Sentence Takeaway
+> ISO/IEC 27001 A.5.8 requires information security to be embedded throughout project management to ensure secure project execution and secure deliverables.
+
+---
+
+## Purpose
+Ensure that **information security is embedded throughout the project lifecycle**, so that projects are delivered securely and do not introduce unmanaged information security risks.
+
+---
+
+## Key Principles
+* Information security must be:
+  * Integrated **from the earliest project stages**
+  * Considered alongside **functional requirements**
+* Both:
+  * **Project activities**
+  * **Project deliverables**
+    must be assessed for information security risk.
+
+---
+
+## Risk Assessment in Projects
+* Perform two risk assessments at project initiation:
+  1. **Risks from project execution** (temporary access, test environments)
+  2. **Risks from project deliverables** (insecure systems or services)
+* Security controls should:
+  * Be documented as **project requirements**
+  * Be prioritized according to risk
+  * Be implemented as part of normal project activities
+
+---
+
+## Project Risk vs Information Security Risk
+* Project risk (delivery, cost, schedule) is **not the same** as information security risk.
+* Information security risks should:
+  * Be recorded in a **security risk register**
+  * Integrate with the organization’s **ISMS**
+* Controls must not be removed to meet deadlines without **organizational-level risk acceptance**.
+
+---
+
+## Change Management and Lifecycle Coverage
+* Security must be:
+  * Reviewed whenever **project changes** occur
+  * Addressed at **all key project stages**
+* Transition of deliverables must ensure:
+  * Security requirements are fully implemented
+  * No residual project-only controls are lost
+
+---
+
+## System Development and Acquisition
+* Applies to:
+  * Bespoke systems
+  * Commercial off-the-shelf (COTS) software
+* Security requirements must:
+  * Be identified
+  * Documented
+  * Tracked through development, acquisition, testing, and deployment
+* Testing must confirm:
+  * Security requirements are met
+  * Deficiencies are resolved appropriately
+
+---
+
+## Audit Expectations
+Auditors will verify:
+* Project methodology:
+  * Requires identification of security objectives, risks, and controls
+  * Includes security checkpoints across the lifecycle
+* Each project has:
+  * Documented security objectives
+  * Security risk assessment
+  * Traceability from risks to controls
+* Roles and responsibilities for security:
+  * Are clearly defined per project phase
+* Security requirements:
+  * Are monitored, tested, and reviewed
+  * Are not compromised during development or acquisition
