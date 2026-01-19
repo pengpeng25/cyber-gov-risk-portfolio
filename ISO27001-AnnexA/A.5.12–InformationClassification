@@ -1,0 +1,35 @@
+# A.5.12 – Classification of Information
+
+**Clause:** ISO/IEC 27001, A.5.12  
+**Title:** Classification of Information
+
+---
+
+## One-Sentence Takeaway
+> ISO/IEC 27001 A.5.12 ensures all information is classified according to its security and business requirements to enable consistent protection.
+
+---
+
+## Purpose
+Ensure information is assigned a classification reflecting its **confidentiality, integrity, availability**, and business or regulatory requirements so that it receives appropriate protection.
+
+---
+
+## Key Principles
+* Classify information based on its **security requirements** and stakeholder needs.
+* Group information with similar protection needs to simplify handling.
+* Decide whether **all information is classified by default** or only selected items.
+* The classification scheme should be **documented, easily understood, and consistently applied**.
+* Specify **handling, storage, and disposal requirements** for each classification level.
+* **Review and update** classifications periodically or when information sensitivity changes.
+* The **asset owner** is responsible for assigning, maintaining, and supervising the classification.
+
+---
+
+## Auditing Guidance
+Auditors should verify:
+* A **clear classification scheme** exists with defined levels and handling rules.
+* Classification applies to **all assets within the ISMS scope**.
+* Staff are **trained and aware** of the classification scheme.
+* Procedures exist for **checking, reviewing, upgrading, or downgrading classifications**.
+* **Asset owners** actively assign and maintain classifications.
