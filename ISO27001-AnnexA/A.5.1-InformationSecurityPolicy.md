@@ -1,57 +1,77 @@
-# A.5.1 – Information Security Policy
+# A.5.1 – Policies for Information Security
 
 **Clause:** ISO/IEC 27001, A.5.1  
-**Title:** Information Security Policy  
+**Title:** Policies for Information Security
 
 ---
 
 ## One-Sentence Takeaway
-Define, approve, communicate, and maintain a management-endorsed information security policy that provides direction and support for all information security activities.
+> ISO/IEC 27001 A.5.1 ensures that information security policies clearly express management commitment, guide risk-based security practices, are properly communicated, and are continually reviewed as part of the ISMS.
 
 ---
 
 ## Purpose
-The purpose of this control is to ensure that the organization has a formal, approved, and communicated policy that establishes the management's commitment to information security, sets the overall direction, and provides a framework for supporting information security objectives.
+The purpose of information security policies is to **formally define management’s commitment to information security** and provide a **clear, structured framework** for managing information security risks within the ISMS.
 
 ---
 
 ## Key Requirements
-- A formal, documented information security policy approved by top management.  
-- Alignment of the policy with business objectives, regulatory requirements, and risk management activities.  
-- Communication of the policy to all staff and relevant external parties.  
-- Regular review and updating of the policy to ensure continued relevance.  
-- Demonstration of management commitment through approval, communication, and provision of resources.
+* Information security policies must be:
+  * **Defined**
+  * **Approved by top management**
+  * **Published and communicated**
+  * **Acknowledged by relevant personnel and interested parties**
+  * **Reviewed periodically and after significant changes**
+* Policies must be part of the **ISMS documentation** and under **version and change control**.
 
 ---
 
 ## Policy Structure
-- **Scope and applicability:** Define what parts of the organization, information, and assets the policy covers.  
-- **Objectives and principles:** High-level statements about confidentiality, integrity, and availability.  
-- **Roles and responsibilities:** Define management responsibilities, asset owners, and staff obligations.  
-- **Compliance requirements:** Legal, regulatory, contractual, and internal obligations.  
-- **Review and maintenance:** How often the policy will be reviewed and updated.  
-- **Reference to supporting standards/procedures:** Links to detailed procedures, guidelines, and risk management frameworks.
+* **Top-level information security policy**:
+  * Usually **short (often one page)**
+  * States **management commitment**, scope, and objectives
+  * References **topic-specific policies**
+* **Topic-specific policies**:
+  * Provide detailed guidance for specific areas (e.g., access control, incident management)
+  * Are available **based on job role and authorization**
+  * May be classified and protected from tampering
+* Policies may be consolidated into a **security policy manual**
 
 ---
 
 ## Distribution and Accessibility
-- Make the policy accessible to all employees, contractors, and relevant external parties.  
-- Publish the policy in locations or systems where staff can easily find it (e.g., intranet, document management system).  
-- Ensure that staff acknowledge understanding of the policy, either through formal acknowledgment or training.
+* Policies must be:
+  * Communicated to **all staff** within scope
+  * Made available to **relevant external parties** (e.g., contractors)
+  * **Redacted** when shared externally to remove sensitive content
+* Staff must be **informed of policy changes**, especially if their role is affected
 
 ---
 
 ## Maintenance and Review
-- Schedule periodic reviews, at least annually, or when there are major organizational, regulatory, or technological changes.  
-- Update the policy to reflect changes in business objectives, risks, and regulatory requirements.  
-- Maintain version history and approvals for accountability.
+* Policy review is part of **continual ISMS improvement** (ISO/IEC 27001 Clause 9)
+* Reviews should:
+  * Detect changes in risks, threats, vulnerabilities, or technology
+  * Ensure policies remain **current, effective, and aligned with risk treatment**
+* Reviews must be:
+  * **Scheduled**
+  * Triggered by significant events (incidents, new threats, major changes)
+* A **policy owner** should be appointed to ensure accountability
 
 ---
 
 ## Audit Expectations
-- Verify the existence of a formally documented and approved policy.  
-- Confirm the policy is communicated and accessible to all relevant staff.  
-- Check for evidence of periodic reviews and updates.  
-- Evaluate whether the policy aligns with business objectives, risk management, and compliance requirements.  
-- Assess top management’s visible commitment through approvals, communication, and resource allocation.
-
+Auditors will verify that:
+* The policy:
+  * Is **approved and signed by senior management**
+  * Clearly defines scope, objectives, responsibilities, and compliance handling
+* Employees and relevant external parties:
+  * Can **access the policy**
+  * Are **aware of it and understand its intent**
+* The policy:
+  * Is reviewed and updated when required
+  * Is supported by relevant topic-specific policies
+* Clear responsibilities exist for:
+  * Policy ownership
+  * Review
+  * Distribution of updates
