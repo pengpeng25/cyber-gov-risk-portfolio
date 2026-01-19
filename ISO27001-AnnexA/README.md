@@ -17,6 +17,6 @@ This repository summarizes Annex A (A.5) of ISO/IEC 27001 with one-sentence take
 | A.5.9 | Define rules for the acceptable use of assets. | [Read more](A.5.9–InventoryofInformationandOtherAssociatedAssets) |
 | A.5.10 | Ensure personnel return all organisational assets when changing or leaving. | [Read more](A.5.10–AcceptableUseInformation) |
 | A.5.11 | Classify information according to security requirements and interested parties. | [Read more](A.5.11–ReturnAssets) |
-| A.5.12 | Apply a labelling scheme to indicate the classification of information. | [Read more](clauses/A.5.12-LabellingOfInformation.md) |
+| A.5.12 | Apply a labelling scheme to indicate the classification of information. | [Read more](A.5.12–InformationClassification) |
 | A.5.13 | Define procedures for secure information transfer within and outside the organisation. | [Read more](clauses/A.5.13-InformationTransfer.md) |
 | A.5.14 | Ensure agreements and rules cover secure transfer of information to third parties. | [Read more](clauses/A.5.14-InformationTransfer.md) |
