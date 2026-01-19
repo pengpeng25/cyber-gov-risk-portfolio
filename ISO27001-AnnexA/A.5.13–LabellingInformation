@@ -1,0 +1,34 @@
+# A.5.13 – Labelling of Information
+
+**Clause:** ISO/IEC 27001, A.5.13  
+**Title:** Labelling of Information
+
+---
+
+## One-Sentence Takeaway
+> ISO/IEC 27001 A.5.13 ensures classified information is properly labelled to guide secure handling, storage, and sharing.
+
+---
+
+## Purpose
+Ensure that classified information is **visibly and appropriately labelled** so that handling, storage, and transport align with its classification.
+
+---
+
+## Key Principles
+* All classified information should be **labelled according to its classification**, suitable to its form (document, printout, electronic).
+* Digital information may be labelled at **document, folder, or system level**.
+* Labels must **remain with the information** even when it changes form (e.g., printing an email).
+* Sensitive information may require **restricted labelling** to avoid drawing attention from unauthorized parties.
+* Consider **compatibility with external organisations’ classification schemes** when sharing information.
+* Include **expiry dates** for information that loses sensitivity over time.
+
+---
+
+## Auditing Guidance
+Auditors should confirm:
+* Procedures exist for **labelling classified information** consistently with the classification scheme.
+* Physical and electronic labels are **clear, accurate, and persistent**.
+* Labels ensure **appropriate handling, storage, access, and transmission**.
+* Staff understand the labelling scheme and follow procedures in day-to-day operations.
+* Labels remain valid even when information changes format or is transmitted externally.
