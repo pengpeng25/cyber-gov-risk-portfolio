@@ -1,0 +1,38 @@
+# A.5.10 – Acceptable Use of Information and Other Associated Assets
+
+**Clause:** ISO/IEC 27001, A.5.10  
+**Title:** Acceptable Use of Information and Other Associated Assets
+
+---
+
+## One-Sentence Takeaway
+> ISO/IEC 27001 A.5.10 ensures that all users of organizational assets understand and follow clearly defined rules for their secure and authorised use.
+
+---
+
+## Purpose
+Ensure all organizational assets are used **only for intended business purposes** and handled in a secure, authorised manner.
+
+---
+
+## Key Principles
+* Develop, document, and communicate **rules for acceptable use** of all information and associated assets.
+* Cover all asset types: computers, networks, printers, storage media, software, and information in any form.
+* Define **procedures for handling assets**, especially sensitive or classified information.
+* Include **contractors, third-party users, and employees** in these rules.
+* Consider applicable legislation (e.g., computer misuse, data protection).
+* Ensure users **acknowledge and agree** to rules (preferably in writing).
+* Implement **controls to detect misuse** and disciplinary procedures.
+* Include logon warnings or notices for information processing facilities where relevant.
+* **Monitor and review incidents** to update rules and procedures.
+
+---
+
+## Auditing Guidance
+Auditors should verify:
+* Documented acceptable use rules exist and cover intended/prohibited uses.
+* Users are aware of rules (signed acknowledgements, training records).
+* Procedures to protect sensitive/classified information are in place and enforced.
+* Monitoring and disciplinary actions exist and are applied where misuse occurs.
+* External parties handle sensitive information according to organisational rules.
+
