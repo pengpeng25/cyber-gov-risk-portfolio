@@ -10,7 +10,7 @@ This repository summarizes Annex A (A.5) of ISO/IEC 27001 with one-sentence take
 | A.5.2 | Define and allocate information security roles and responsibilities. | [Read more](A.5.2-Roles&Responsibilities.md) |
 | A.5.3 | Ensure staff and relevant parties are aware of information security responsibilities. | [Read more](A.5.3-SegregrationOfDuties.md) |
 | A.5.4 | Establish and maintain contact with relevant authorities. | [Read more](A.5.4-ManagementResponsibilities.md) |
-| A.5.5 | Engage with special interest groups and security forums. | [Read more](clauses/A.5.5-ContactWithSpecialInterestGroups.md) |
+| A.5.5 | Engage with special interest groups and security forums. | [Read more](A.5.5–ContactAuthorities.md) |
 | A.5.6 | Collect and analyse information security threats to produce threat intelligence. | [Read more](clauses/A.5.6-ThreatIntelligence.md) |
 | A.5.7 | Integrate information security into project management. | [Read more](clauses/A.5.7-InformationSecurityInProjectManagement.md) |
 | A.5.8 | Maintain an inventory of information and associated assets, including owners. | [Read more](clauses/A.5.8-InventoryOfAssets.md) |
