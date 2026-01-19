@@ -1,0 +1,33 @@
+# A.5.11 – Return of Assets
+
+**Clause:** ISO/IEC 27001, A.5.11  
+**Title:** Return of Assets
+
+---
+
+## One-Sentence Takeaway
+> ISO/IEC 27001 A.5.11 ensures that all organizational assets are returned and sensitive information is securely removed when personnel leave or change roles.
+
+---
+
+## Purpose
+Ensure that all organizational assets are **recovered from employees, contractors, and third parties** when employment or contracts change or terminate.
+
+---
+
+## Key Principles
+* Establish procedures to return **all assets**:
+  * Hardware, software, documents, storage media, mobile devices, access cards, keys, etc.
+* Include assets stored on **non-organisational equipment** (private or third-party devices).
+* Ensure **secure erasure** of organizational information from returned or non-organizational equipment.
+* Include return procedures in employment or contract agreements.
+* Apply procedures not only on termination but also when job roles change.
+
+---
+
+## Auditing Guidance
+Auditors should check:
+* Procedures cover all asset types, including non-organisational equipment.
+* Records demonstrate assets were returned and information securely erased.
+* Procedures apply to employees, contractors, and third-party users.
+* Procedures are applied consistently for both terminations and role changes.
