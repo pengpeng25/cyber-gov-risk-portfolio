@@ -1,22 +1,22 @@
 # ISO/IEC 27001 Annex A – Information Security Controls
 
-This repository summarizes Annex A (A.5) of ISO/IEC 27001 with one-sentence takeaways for each clause, with detailed guidance in separate files.
+This repository summarizes Annex A (A.5) of ISO/IEC 27001 with clause titles for each control, with detailed guidance in separate files.
 
-## One-sentence takeaways
+## Clause Titles
 
-| Clause | Takeaway | Details |
-|--------|----------|---------|
-| A.5.1 | Establish and maintain an information security policy. | [Read more](A.5.1-InformationSecurityPolicy.md) |
-| A.5.2 | Define and allocate information security roles and responsibilities. | [Read more](A.5.2-Roles&Responsibilities.md) |
-| A.5.3 | Ensure staff and relevant parties are aware of information security responsibilities. | [Read more](A.5.3-SegregrationOfDuties.md) |
-| A.5.4 | Establish and maintain contact with relevant authorities. | [Read more](A.5.4-ManagementResponsibilities.md) |
-| A.5.5 | Engage with special interest groups and security forums. | [Read more](A.5.5–ContactAuthorities.md) |
-| A.5.6 | Collect and analyse information security threats to produce threat intelligence. | [Read more](A.5.6–ContactSpecialInterestGroups) |
-| A.5.7 | Integrate information security into project management. | [Read more](A.5.7–ThreatIntelligence) |
-| A.5.8 | Maintain an inventory of information and associated assets, including owners. | [Read more](A.5.8–InformationSecurityinProjectManagement) |
-| A.5.9 | Define rules for the acceptable use of assets. | [Read more](A.5.9–InventoryofInformationandOtherAssociatedAssets) |
-| A.5.10 | Ensure personnel return all organisational assets when changing or leaving. | [Read more](A.5.10–AcceptableUseInformation) |
-| A.5.11 | Classify information according to security requirements and interested parties. | [Read more](A.5.11–ReturnAssets) |
-| A.5.12 | Apply a labelling scheme to indicate the classification of information. | [Read more](A.5.12–InformationClassification) |
-| A.5.13 | Define procedures for secure information transfer within and outside the organisation. | [Read more](A.5.13–LabellingInformation) |
-| A.5.14 | Ensure agreements and rules cover secure transfer of information to third parties. | [Read more](A.5.14–InformationTransfer) |
+| Clause | Title | Details |
+|--------|-------|---------|
+| A.5.1 | Policies for Information Security | [Read more](A.5.1-InformationSecurityPolicy.md) |
+| A.5.2 | Information Security Roles and Responsibilities | [Read more](A.5.2-Roles&Responsibilities.md) |
+| A.5.3 | Segregation of Duties | [Read more](A.5.3-SegregrationOfDuties.md) |
+| A.5.4 | Management Responsibilities | [Read more](A.5.4-ManagementResponsibilities.md) |
+| A.5.5 | Contact with Authorities | [Read more](A.5.5–ContactAuthorities.md) |
+| A.5.6 | Contact with Special Interest Groups | [Read more](A.5.6–ContactSpecialInterestGroups.md) |
+| A.5.7 | Threat Intelligence | [Read more](A.5.7–ThreatIntelligence.md) |
+| A.5.8 | Information Security in Project Management | [Read more](A.5.8–InformationSecurityinProjectManagement.md) |
+| A.5.9 | Inventory of Information and Other Associated Assets | [Read more](A.5.9–InventoryofInformationandOtherAssociatedAssets.md) |
+| A.5.10 | Acceptable Use of Information and Other Associated Assets | [Read more](A.5.10–AcceptableUseInformation.md) |
+| A.5.11 | Return of Assets | [Read more](A.5.11–ReturnAssets.md) |
+| A.5.12 | Classification of Information | [Read more](A.5.12–InformationClassification.md) |
+| A.5.13 | Labelling of Information | [Read more](A.5.13–LabellingInformation.md) |
+| A.5.14 | Information Transfer | [Read more](A.5.14–InformationTransfer.md) |
