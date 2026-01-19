@@ -1,0 +1,66 @@
+# A.5.9 – Inventory of Information and Other Associated Assets
+
+**Clause:** ISO/IEC 27001, A.5.9  
+**Title:** Inventory of Information and Other Associated Assets
+
+---
+
+## One-Sentence Takeaway
+> ISO/IEC 27001 A.5.9 requires organizations to maintain a complete, up-to-date inventory of all assets with assigned owners to ensure appropriate protection and accountability.
+
+---
+
+## Purpose
+Ensure the organization **knows what information, physical, and software assets it holds, their value, classification, and ownership**, so that appropriate protection measures can be applied.
+
+---
+
+## Key Principles
+* Maintain an **inventory of all assets**:
+  * Information (data, databases, paper records)
+  * Physical assets (equipment, devices, infrastructure)
+  * Software (including licensing and location)
+  * Services and processes
+* For each asset, include:
+  * **Owner** and custodian (if delegated)
+  * **Business value and classification**
+  * **Location** and format
+  * Backup and disaster recovery arrangements
+  * Acquisition info, serial numbers, inventory tags for physical assets
+  * Retention and disposal information
+
+---
+
+## Asset Ownership
+* Assign **owners for all major assets** and assets with special requirements (e.g., personal data).
+* Owners are responsible for:
+  * Determining asset classification
+  * Supporting risk assessments
+  * Ensuring day-to-day protection
+  * Keeping controls and classifications up-to-date
+* Owners may delegate **custodians**, but remain **ultimately accountable**.
+
+---
+
+## Maintaining the Inventory
+* Update the inventory **regularly**, including:
+  * New acquisitions
+  * Disposals
+  * Changes due to projects or operational updates
+* Conduct **annual checks** (‘stock checks’) for completeness and accuracy.
+* Include software and licensing info, system documentation, contracts, and business recovery plans.
+* Protect the inventory via:
+  * Access controls for digital records
+  * Secure storage for paper records
+
+---
+
+## Auditing Guidance
+Auditors should confirm:
+* Completeness and accuracy of the inventory
+* Assets are classified and assigned to owners
+* Owners understand and fulfill responsibilities
+* Custodians, if used, perform tasks correctly under owner oversight
+* Updates occur for new, changed, or disposed assets
+* Inventory includes all required details: format, serial number, business value, classification, owner, location, media type, software license, retention period, backup/disaster recovery info, and audit record dates
+* Procedures exist to maintain integrity and availability of the inventory
