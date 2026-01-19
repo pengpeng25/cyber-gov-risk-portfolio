@@ -14,7 +14,7 @@ This repository summarizes Annex A (A.5) of ISO/IEC 27001 with one-sentence take
 | A.5.6 | Collect and analyse information security threats to produce threat intelligence. | [Read more](A.5.6–ContactSpecialInterestGroups) |
 | A.5.7 | Integrate information security into project management. | [Read more](A.5.7–ThreatIntelligence) |
 | A.5.8 | Maintain an inventory of information and associated assets, including owners. | [Read more](A.5.8–InformationSecurityinProjectManagement) |
-| A.5.9 | Define rules for the acceptable use of assets. | [Read more](clauses/A.5.9-AcceptableUse.md) |
+| A.5.9 | Define rules for the acceptable use of assets. | [Read more](A.5.9–InventoryofInformationandOtherAssociatedAssets) |
 | A.5.10 | Ensure personnel return all organisational assets when changing or leaving. | [Read more](clauses/A.5.10-ReturnOfAssets.md) |
 | A.5.11 | Classify information according to security requirements and interested parties. | [Read more](clauses/A.5.11-ClassificationOfInformation.md) |
 | A.5.12 | Apply a labelling scheme to indicate the classification of information. | [Read more](clauses/A.5.12-LabellingOfInformation.md) |
