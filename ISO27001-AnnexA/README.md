@@ -6,7 +6,7 @@ This repository summarizes Annex A (A.5) of ISO/IEC 27001 with one-sentence take
 
 | Clause | Takeaway | Details |
 |--------|----------|---------|
-| A.5.1 | Establish and maintain an information security policy. | [Read more](clauses/A.5.1-InformationSecurityPolicy.md) |
+| A.5.1 | Establish and maintain an information security policy. | [Read more](A.5.1-InformationSecurityPolicy.md) |
 | A.5.2 | Define and allocate information security roles and responsibilities. | [Read more](clauses/A.5.2-InformationSecurityRoles.md) |
 | A.5.3 | Ensure staff and relevant parties are aware of information security responsibilities. | [Read more](clauses/A.5.3-InformationSecurityAwareness.md) |
 | A.5.4 | Establish and maintain contact with relevant authorities. | [Read more](clauses/A.5.4-ContactWithAuthorities.md) |
