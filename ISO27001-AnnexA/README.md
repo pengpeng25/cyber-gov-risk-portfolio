@@ -11,12 +11,12 @@ This repository summarizes Annex A (A.5) of ISO/IEC 27001 with clause titles for
 | A.5.3 | Segregation of Duties | [Read more](A.5.3-SegregrationOfDuties.md) |
 | A.5.4 | Management Responsibilities | [Read more](A.5.4-ManagementResponsibilities.md) |
 | A.5.5 | Contact with Authorities | [Read more](A.5.5–ContactAuthorities.md) |
-| A.5.6 | Contact with Special Interest Groups | [Read more](A.5.6–ContactSpecialInterestGroups.md) |
-| A.5.7 | Threat Intelligence | [Read more](A.5.7–ThreatIntelligence.md) |
-| A.5.8 | Information Security in Project Management | [Read more](A.5.8–InformationSecurityinProjectManagement.md) |
-| A.5.9 | Inventory of Information and Other Associated Assets | [Read more](A.5.9–InventoryofInformationandOtherAssociatedAssets.md) |
-| A.5.10 | Acceptable Use of Information and Other Associated Assets | [Read more](A.5.10–AcceptableUseInformation.md) |
-| A.5.11 | Return of Assets | [Read more](A.5.11–ReturnAssets.md) |
-| A.5.12 | Classification of Information | [Read more](A.5.12–InformationClassification.md) |
-| A.5.13 | Labelling of Information | [Read more](A.5.13–LabellingInformation.md) |
-| A.5.14 | Information Transfer | [Read more](A.5.14–InformationTransfer.md) |
+| A.5.6 | Contact with Special Interest Groups | [Read more](A.5.6–ContactSpecialInterestGroups) |
+| A.5.7 | Threat Intelligence | [Read more](A.5.7–ThreatIntelligence) |
+| A.5.8 | Information Security in Project Management | [Read more](A.5.8–InformationSecurityinProjectManagement) |
+| A.5.9 | Inventory of Information and Other Associated Assets | [Read more](A.5.9–InventoryofInformationandOtherAssociatedAssets) |
+| A.5.10 | Acceptable Use of Information and Other Associated Assets | [Read more](A.5.10–AcceptableUseInformation) |
+| A.5.11 | Return of Assets | [Read more](A.5.11–ReturnAssets) |
+| A.5.12 | Classification of Information | [Read more](A.5.12–InformationClassification) |
+| A.5.13 | Labelling of Information | [Read more](A.5.13–LabellingInformation) |
+| A.5.14 | Information Transfer | [Read more](A.5.14–InformationTransfer) |
