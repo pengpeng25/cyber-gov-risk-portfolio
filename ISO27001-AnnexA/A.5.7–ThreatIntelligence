@@ -1,0 +1,48 @@
+# A.5.7 – Threat Intelligence
+
+**Clause:** ISO/IEC 27001, A.5.7  
+**Title:** Threat Intelligence
+
+---
+
+## One-Sentence Takeaway
+> ISO/IEC 27001 A.5.7 requires organizations to systematically produce and use threat intelligence to support informed, proactive risk management.
+
+---
+
+## Purpose
+Ensure that **relevant threat information is collected, analysed, and transformed into actionable intelligence** to support risk management decisions.
+
+---
+
+## Key Requirements
+* Collect threat information from multiple sources (online research, peers, specialist services)
+* Analyse information **in the context of the organization**
+* Maintain intelligence that is:
+  * Accurate
+  * Relevant
+  * Updated regularly
+
+---
+
+## Risk and Security Integration
+* Feed threat intelligence into **risk assessment and treatment**
+* Enable proactive decisions on emerging or likely risks
+* Protect sensitive information and safety during intelligence activities
+
+---
+
+## Process and Governance
+* Establish a **repeatable process** for producing intelligence
+* Validate or verify sources
+* Train staff in:
+  * Threat intelligence methods
+  * Legal and regulatory requirements
+
+---
+
+## Audit Expectations
+Auditors will verify:
+* Intelligence informs **risk and control decisions**
+* Management uses intelligence in **planning and operations**
+* Processes exist to **update and validate** intelligence
