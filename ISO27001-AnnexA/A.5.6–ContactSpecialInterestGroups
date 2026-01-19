@@ -1,0 +1,45 @@
+# A.5.6 – Contact with Special Interest Groups
+
+**Clause:** ISO/IEC 27001, A.5.6  
+**Title:** Contact with Special Interest Groups
+
+---
+
+## One-Sentence Takeaway
+> ISO/IEC 27001 A.5.6 encourages organizations to engage with security communities to improve awareness while controlling the sharing of sensitive information.
+
+---
+
+## Purpose
+Enable organizations to **maintain awareness of emerging threats, best practices, and trends** by engaging with information security communities and professional groups.
+
+---
+
+## Key Requirements
+* Participate in **special interest groups, forums, or professional associations**
+* Leverage external expertise and shared experience
+* Engagement must be:
+  * Controlled
+  * Authorized
+  * Compliant with confidentiality requirements
+
+---
+
+## Information Sharing Controls
+* Exchanges must:
+  * Protect confidential data
+  * Respect NDAs and forum rules
+* Procedures should ensure:
+  * Beneficial information is shared internally
+  * Sensitive information is not disclosed without authorization
+
+---
+
+## Audit Expectations
+Auditors will verify:
+* Organization **participates appropriately** given its size/resources
+* Benefits from participation are **demonstrable** (knowledge sharing, awareness)
+* Procedures exist to:
+  * Disseminate information internally
+  * Prevent unauthorized disclosure
+* Participation is **documented and purpose-driven**
