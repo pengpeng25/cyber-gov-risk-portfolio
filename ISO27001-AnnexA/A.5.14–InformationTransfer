@@ -1,0 +1,43 @@
+# A.5.14 – Information Transfer
+
+**Clause:** ISO/IEC 27001, A.5.14  
+**Title:** Information Transfer
+
+---
+
+## One-Sentence Takeaway
+> ISO/IEC 27001 A.5.14 ensures that information, whether internal or shared externally, is transferred securely using defined policies, procedures, and controls.
+
+---
+
+## Purpose
+Ensure information is **transferred securely**, both within the organisation and with external parties, minimizing the risk of **loss, alteration, or unauthorized disclosure**.
+
+---
+
+## Key Principles
+* Develop an **information exchange policy** covering all types of transfer (physical, electronic, verbal, mobile, etc.).
+* Specify **procedures and controls** for secure handling during transfer.
+* Include **third-party agreements** to define responsibilities and security requirements.
+* **Communicate the policy** to all staff and provide awareness training with real-world examples.
+* Consider all risks, such as:
+  * Misdelivery of information (wrong recipient, physical or virtual)
+  * Interception during transit (unprotected email, networks)
+  * Unauthorized access to printed materials (printers, faxes)
+  * Eavesdropping in public spaces (phones, mobile devices)
+* Ensure **changes in practices** are reflected in procedures and third-party agreements.
+
+---
+
+## Auditing Guidance
+Auditors should verify:
+* Existence of an **information transfer policy** and supporting procedures.
+* Procedures cover **all communication methods**: networks, email, mobile devices, faxes, telephones, messaging apps.
+* Employees **understand and follow procedures**, e.g., correct use of email or messaging apps.
+* Agreements with third parties exist and **specify proper handling** of sensitive information.
+* Security controls for **electronic messaging** are in place:
+  * Verification of source and integrity
+  * Use of encryption where appropriate
+  * Malware checks for incoming messages
+  * Controlled use of external messaging platforms
+* Procedures address situations where **third-party protection levels differ** from the organisation’s standards.
