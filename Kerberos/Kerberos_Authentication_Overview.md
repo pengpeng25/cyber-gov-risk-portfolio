@@ -59,7 +59,7 @@ The **TGT is encrypted using the `krbtgt` account’s password hash**, meaning:
 
 The encrypted TGT **contains a copy of the Session Key**, allowing the KDC to recover it later without storing session state.
 
-![Kerberos – Steps 1 and 2](images/kerberos_step1_2.png)
+![Kerberos – Steps 1 and 2](images/step1_2.png)
 
 > *Diagram source: TryHackMe – Kerberos Authentication*
 
