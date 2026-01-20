@@ -26,7 +26,7 @@ Tickets are commonly:
 
 ## High-Level Kerberos Authentication Flow
 
-![Kerberos – Full Authentication Flow](images/Authentication overview.png)
+![Kerberos – Full Authentication Flow](images/all.png)
 
 > *Diagram source: TryHackMe – Kerberos Authentication*
 
