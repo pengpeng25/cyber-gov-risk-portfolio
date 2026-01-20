@@ -28,7 +28,7 @@ Tickets are commonly:
 
 ![Kerberos – Full Authentication Flow](all.png)
 
-> *Diagram source: TryHackMe – Attacking Kerberos*
+> *Source: TryHackMe – Attacking Kerberos*
 
 ---
 
@@ -61,7 +61,7 @@ The encrypted TGT **contains a copy of the Session Key**, allowing the KDC to re
 
 ![Kerberos – Steps 1 and 2](step1_2.png)
 
-> *Diagram source: TryHackMe – Active Directory Basics*
+> *Source: TryHackMe – Active Directory Basics*
 
 ---
 
@@ -91,7 +91,7 @@ Key details:
 
 ![Kerberos – Steps 3 and 4](step3_4.png)
 
-> *Diagram source: TryHackMe – Active Directory Basics*
+> *Source: TryHackMe – Active Directory Basics*
 
 ---
 
@@ -108,7 +108,7 @@ At this point, **mutual authentication is complete**, and the user is allowed to
 
 ![Kerberos – Step 5](step_5.png)
 
-> *Diagram source: TryHackMe – Active Directory Basics*
+> *Source: TryHackMe – Active Directory Basics*
 
 ---
 
@@ -117,6 +117,7 @@ At this point, **mutual authentication is complete**, and the user is allowed to
 ### Ticket Granting Ticket (TGT)
 
 ![Ticket Granting Ticket (TGT)](TGT.png)
+> *Source: TryHackMe – Attacking Kerberos*
 
 Key characteristics:
 
@@ -133,6 +134,7 @@ The TGT allows Kerberos to avoid repeatedly transmitting credentials, improving 
 ### Service Ticket (TGS)
 
 ![Kerberos Service Ticket](ServiceTicket.png)
+> *Source: TryHackMe – Attacking Kerberos*
 
 Key characteristics:
 
@@ -192,7 +194,6 @@ Understanding ticket structure and flow is critical for **both defense and detec
 | **TGS** | Ticket-Granting Service / Ticket-Granting Server | The service that issues service tickets after validating the TGT. Sometimes the KDC contains this function. |
 | **SPN** | Service Principal Name | Unique identifier for a service on the network (e.g., `HTTP/webserver.company.com`). Used to request service tickets. |
 | **AS** | Authentication Service | Part of KDC that authenticates a user and issues the initial TGT. |
-
 | **krbtgt** | Kerberos Ticket Granting Ticket Account | Special account used to encrypt TGTs in Active Directory. Its password hash secures TGT contents. |
 | **SSO** | Single Sign-On | Mechanism that allows users to access multiple services using **one authentication session**. Kerberos is commonly used for SSO in Windows domains. |
 | **LDAP** | Lightweight Directory Access Protocol | Directory service often integrated with Kerberos for identity management. |
