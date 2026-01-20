@@ -106,7 +106,7 @@ The service:
 
 At this point, **mutual authentication is complete**, and the user is allowed to interact with the service.
 
-![Kerberos – Step 5](step5.png)
+![Kerberos – Step 5](step_5.png)
 
 > *Diagram source: TryHackMe – Active Directory Basics*
 
