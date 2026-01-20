@@ -28,7 +28,7 @@ Tickets are commonly:
 
 ![Kerberos – Full Authentication Flow](all.png)
 
-> *Diagram source: TryHackMe – Kerberos Authentication*
+> *Diagram source: TryHackMe – Attacking Kerberos*
 
 ---
 
@@ -59,9 +59,9 @@ The **TGT is encrypted using the `krbtgt` account’s password hash**, meaning:
 
 The encrypted TGT **contains a copy of the Session Key**, allowing the KDC to recover it later without storing session state.
 
-![Kerberos – Steps 1 and 2](images/step1_2.png)
+![Kerberos – Steps 1 and 2](step1_2.png)
 
-> *Diagram source: TryHackMe – Kerberos Authentication*
+> *Diagram source: TryHackMe – Active Directory Basics*
 
 ---
 
@@ -89,9 +89,9 @@ Key details:
 - Only the target service can decrypt it
 - The encrypted TGS contains a copy of the Service Session Key
 
-![Kerberos – Steps 3 and 4](images/kerberos_step3_4.png)
+![Kerberos – Steps 3 and 4](step3_4.png)
 
-> *Diagram source: TryHackMe – Kerberos Authentication*
+> *Diagram source: TryHackMe – Active Directory Basics*
 
 ---
 
@@ -106,9 +106,9 @@ The service:
 
 At this point, **mutual authentication is complete**, and the user is allowed to interact with the service.
 
-![Kerberos – Step 5](images/kerberos_step5.png)
+![Kerberos – Step 5](step5.png)
 
-> *Diagram source: TryHackMe – Kerberos Authentication*
+> *Diagram source: TryHackMe – Active Directory Basics*
 
 ---
 
@@ -116,7 +116,7 @@ At this point, **mutual authentication is complete**, and the user is allowed to
 
 ### Ticket Granting Ticket (TGT)
 
-![Ticket Granting Ticket (TGT)](images/kerberos_tgt.png)
+![Ticket Granting Ticket (TGT)](TGT.png)
 
 Key characteristics:
 
@@ -132,7 +132,7 @@ The TGT allows Kerberos to avoid repeatedly transmitting credentials, improving 
 
 ### Service Ticket (TGS)
 
-![Kerberos Service Ticket](images/kerberos_service_ticket.png)
+![Kerberos Service Ticket](ServiceTicket.png)
 
 Key characteristics:
 
@@ -174,7 +174,7 @@ Understanding ticket structure and flow is critical for **both defense and detec
 ## Attribution
 
 > **Image Source and Credit**  
-> All diagrams used in this document are adapted from **TryHackMe – Kerberos Authentication** learning materials.  
+> All diagrams used in this document are adapted from **TryHackMe – Active Directory Basics** and **Attacking Kerberos** learning materials.  
 > They are used for **educational and portfolio purposes only**.  
 > All rights belong to their respective owners.  
 >  
