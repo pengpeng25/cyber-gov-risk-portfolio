@@ -51,9 +51,7 @@ In RSA, two prime numbers are chosen:
 
 Multiplying these two primes is straightforward:
 
-\[
-n = p \times q = 4391 \times 6659 = 29,\!239,\!669
-\]
+n = p × q = 4391 × 6659 = 29,239,669
 
 This calculation is quick and easy, even for much larger numbers when using a computer.
 
