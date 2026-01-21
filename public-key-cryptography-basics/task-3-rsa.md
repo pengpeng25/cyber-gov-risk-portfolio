@@ -65,6 +65,71 @@ For Security+, it is important to understand:
 
 ---
 
+## Mathematical Foundation of RSA
+
+RSA is a public-key cryptographic algorithm whose security is based on a **mathematical one-way problem**. While RSA uses public and private keys, its real strength comes from the difficulty of **factoring very large numbers**.
+
+RSA relies on the following principle:
+
+- Multiplying two large prime numbers is easy
+- Factoring their product back into the original primes is extremely difficult
+
+This difference in difficulty is what makes RSA secure.
+
+---
+
+## Key Idea Behind RSA Security
+
+1. Two large prime numbers, **p** and **q**, are chosen.
+2. These primes are multiplied to produce:
+   \[
+   n = p \times q
+   \]
+3. The value **n** is made public.
+4. The original prime numbers **p** and **q** remain secret.
+
+While anyone can see **n**, determining **p** and **q** from **n** is computationally infeasible when the primes are large enough.
+
+---
+
+## Why Factoring Is Hard
+
+For small numbers, factoring is easy.  
+As the numbers grow, the problem becomes exponentially harder.
+
+Example:
+- Multiplying two primes is straightforward
+- Factoring a number with hundreds or thousands of digits would require an impractical amount of computing power
+
+Modern computers can:
+- Easily multiply very large numbers
+- **Not realistically factor** numbers used in real-world RSA keys (e.g., 2048-bit keys)
+
+---
+
+## Practical Implications
+
+Because attackers cannot factor **n** efficiently:
+- They cannot compute Euler’s totient function \( \varphi(n) \)
+- They cannot derive the private key
+- Encrypted or signed data remains secure
+
+Breaking RSA would require either:
+- A major breakthrough in mathematics, or
+- Sufficient quantum computing capabilities (not yet practical)
+
+---
+
+## Security+ Exam Relevance
+
+For the Security+ exam, it is important to understand that:
+- RSA security depends on the difficulty of **prime factorization**
+- Larger key sizes increase security
+- RSA is considered secure when properly implemented with modern key lengths
+
+---
+
 ## Key Takeaway
 
-RSA enables secure communication over insecure channels by using asymmetric keys. Its security depends on the practical impossibility of factoring very large numbers, making it a foundational component of modern cryptographic systems.
+RSA is secure because it relies on a mathematical problem that is easy to perform in one direction but extremely difficult to reverse. As long as large prime numbers are used, deriving the private key from the public key remains computationally infeasible.
+
