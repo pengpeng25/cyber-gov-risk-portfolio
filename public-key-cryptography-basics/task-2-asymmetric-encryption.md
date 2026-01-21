@@ -2,28 +2,8 @@
 
 This task explains the **primary use of asymmetric encryption** through a simple real-world analogy and connects it to how secure communication works in practice.
 
----
 
-## Analogy: Sending a Secret Securely
-
-Imagine you have:
-- A **secret code** for communicating
-- Instructions on how to use that secret code
-
-The challenge is:  
-**How do you send these instructions to your friend without anyone else being able to read them?**
-
-### The Solution
-You ask your friend for a **lock**.
-
-- Only your friend owns the **key** to this lock
-- You place the instructions inside an indestructible box
-- You lock the box and send it to your friend
-- Your friend unlocks the box and reads the instructions
-
-Once your friend has the secret code, you can communicate securely using it without worrying about eavesdroppers.
-
----
+![Asymmetric encryption](1.svg)
 
 ## Mapping the Analogy to Cryptography
 
