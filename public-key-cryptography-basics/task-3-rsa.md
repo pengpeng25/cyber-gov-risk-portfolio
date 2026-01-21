@@ -10,8 +10,6 @@ Only the private key can decrypt data encrypted with the corresponding public ke
 
 ---
 
-## How RSA Is Used in Practice
-
 RSA is **not typically used to encrypt large amounts of data** because it is slow compared to symmetric encryption.
 
 Instead, RSA is commonly used for:
@@ -19,11 +17,9 @@ Instead, RSA is commonly used for:
 - **Authentication**
 - **Digital signatures**
 
-Once a secure connection is established, communication switches to **symmetric encryption** for efficiency.
+## Once a secure connection is established, communication switches to **symmetric encryption** for efficiency.
 
----
-
-## Real-World Examples
+Examples
 
 - **TLS/HTTPS** – RSA helps securely exchange encryption keys
 - **SSH** – RSA authenticates users or servers
