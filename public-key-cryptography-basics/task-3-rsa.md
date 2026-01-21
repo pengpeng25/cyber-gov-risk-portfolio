@@ -86,21 +86,17 @@ In real-world RSA:
 
 RSA security depends on keeping the prime numbers **p** and **q** secret.
 
-If an attacker could factor **n**, they could compute:
+If an attacker could factor the public value `n`, they could compute Euler's totient function:
 
-\[
-\varphi(n) = (p - 1)(q - 1)
-\]
+phi(n) = (p - 1) × (q - 1)
 
-Using the example above:
+Using our example:
 
-\[
-\varphi(n) = (4391 - 1)(6659 - 1) = 4390 \times 6658 = 29,\!228,\!620
-\]
+phi(n) = (4391 - 1) × (6659 - 1) = 4390 × 6658 = 29,228,620
 
-Knowing \( \varphi(n) \) allows the attacker to derive the **private key**, breaking the system.
+Knowing `phi(n)` allows the attacker to derive the **private key**, breaking the system.
 
-Because factoring **n** is impractical at large sizes, the private key remains secure.
+Because factoring `n` becomes impractical for large numbers, the private key remains secure.
 
 ---
 
