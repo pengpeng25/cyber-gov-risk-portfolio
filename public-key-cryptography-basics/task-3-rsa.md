@@ -65,15 +65,13 @@ The value **n** is made public.
 
 An attacker sees only the public value:
 
-\[
-n = 29,\!239,\!669
-\]
+n = 29,239,669
 
-The attacker’s challenge is to determine:
 
-\[
-p \text{ and } q \text{ such that } p \times q = n
-\]
+The attacker’s challenge is to determine the two prime numbers p and q such that:
+
+p × q = n
+
 
 Even with a number this small, factoring already requires effort. As the size of **p** and **q** increases, factoring becomes dramatically harder.
 
