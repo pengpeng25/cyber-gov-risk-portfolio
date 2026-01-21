@@ -10,30 +10,6 @@ Only the private key can decrypt data encrypted with the corresponding public ke
 
 ---
 
-## Why RSA Is Secure (High-Level)
-
-RSA’s security relies on a mathematical problem that is **easy to perform one way but extremely difficult to reverse**.
-
-- Multiplying two large prime numbers together is easy
-- Factoring the resulting large number back into its original primes is extremely difficult
-
-This asymmetry is what makes RSA practical for secure communication.
-
----
-
-## The Math (Conceptual, Not Detailed)
-
-For example:
-- Multiplying two prime numbers is straightforward
-- Even moderately large numbers become very difficult to factor once multiplied
-- In real-world RSA, the prime numbers used are **hundreds of digits long**
-
-Modern computers can multiply large numbers easily, but factoring a number with **600+ digits** is computationally infeasible with current technology.
-
-This makes it impractical for attackers to derive the private key from the public key.
-
----
-
 ## How RSA Is Used in Practice
 
 RSA is **not typically used to encrypt large amounts of data** because it is slow compared to symmetric encryption.
@@ -65,69 +41,95 @@ For Security+, it is important to understand:
 
 ---
 
-## Mathematical Foundation of RSA
+# Why RSA Is Secure – Numeric Example
 
-RSA is a public-key cryptographic algorithm whose security is based on a **mathematical one-way problem**. While RSA uses public and private keys, its real strength comes from the difficulty of **factoring very large numbers**.
+RSA is a public-key cryptographic algorithm whose security is based on a **mathematical problem that is easy to perform in one direction but extremely difficult to reverse**.
 
-RSA relies on the following principle:
+Specifically, RSA relies on the difficulty of **factoring the product of two large prime numbers**.
 
-- Multiplying two large prime numbers is easy
-- Factoring their product back into the original primes is extremely difficult
 
-This difference in difficulty is what makes RSA secure.
+In RSA, two prime numbers are chosen:
 
----
+- p = 4391  
+- q = 6659  
 
-## Key Idea Behind RSA Security
+Multiplying these two primes is straightforward:
 
-1. Two large prime numbers, **p** and **q**, are chosen.
-2. These primes are multiplied to produce:
-   \[
-   n = p \times q
-   \]
-3. The value **n** is made public.
-4. The original prime numbers **p** and **q** remain secret.
+\[
+n = p \times q = 4391 \times 6659 = 29,\!239,\!669
+\]
 
-While anyone can see **n**, determining **p** and **q** from **n** is computationally infeasible when the primes are large enough.
+This calculation is quick and easy, even for much larger numbers when using a computer.
+
+The value **n** is made public.
 
 ---
 
-## Why Factoring Is Hard
+## Hard Operation: Factoring
 
-For small numbers, factoring is easy.  
-As the numbers grow, the problem becomes exponentially harder.
+An attacker sees only the public value:
 
-Example:
-- Multiplying two primes is straightforward
-- Factoring a number with hundreds or thousands of digits would require an impractical amount of computing power
+\[
+n = 29,\!239,\!669
+\]
 
-Modern computers can:
-- Easily multiply very large numbers
-- **Not realistically factor** numbers used in real-world RSA keys (e.g., 2048-bit keys)
+The attacker’s challenge is to determine:
 
----
+\[
+p \text{ and } q \text{ such that } p \times q = n
+\]
 
-## Practical Implications
+Even with a number this small, factoring already requires effort. As the size of **p** and **q** increases, factoring becomes dramatically harder.
 
-Because attackers cannot factor **n** efficiently:
-- They cannot compute Euler’s totient function \( \varphi(n) \)
-- They cannot derive the private key
-- Encrypted or signed data remains secure
-
-Breaking RSA would require either:
-- A major breakthrough in mathematics, or
-- Sufficient quantum computing capabilities (not yet practical)
+In real-world RSA:
+- Prime numbers are **hundreds of digits long**
+- The resulting value of **n** can be **600+ digits**
+- Factoring such numbers is computationally infeasible with current technology
 
 ---
 
-## Security+ Exam Relevance
+### Why Factoring Matters in RSA
 
-For the Security+ exam, it is important to understand that:
-- RSA security depends on the difficulty of **prime factorization**
-- Larger key sizes increase security
-- RSA is considered secure when properly implemented with modern key lengths
+RSA security depends on keeping the prime numbers **p** and **q** secret.
+
+If an attacker could factor **n**, they could compute:
+
+\[
+\varphi(n) = (p - 1)(q - 1)
+\]
+
+Using the example above:
+
+\[
+\varphi(n) = (4391 - 1)(6659 - 1) = 4390 \times 6658 = 29,\!228,\!620
+\]
+
+Knowing \( \varphi(n) \) allows the attacker to derive the **private key**, breaking the system.
+
+Because factoring **n** is impractical at large sizes, the private key remains secure.
 
 ---
+
+### Why This Works at Scale
+
+- Multiplication grows linearly in difficulty
+- Factoring grows exponentially harder as numbers increase
+- Computers can multiply huge numbers easily
+- Computers cannot realistically factor RSA-sized numbers
+
+This imbalance is what protects RSA.
+
+---
+
+### Security Relevance
+
+- RSA security is based on **prime factorization**
+- Public values are easy to compute
+- Private values are protected by mathematical hardness
+- Larger key sizes = stronger security
+
+---
+
 
 ## Key Takeaway
 
