@@ -61,15 +61,7 @@ This hybrid approach is widely used in practice, including:
 - **SSH** – Public key authentication followed by encrypted sessions
 - **Secure messaging applications**
 
----
 
-## Security+ Exam Relevance
-
-This task directly supports the following Security+ concepts:
-- Differences between **symmetric and asymmetric encryption**
-- Why asymmetric encryption is not used for bulk data
-- Secure key exchange mechanisms
-- Hybrid cryptographic systems
 
 ---
 
