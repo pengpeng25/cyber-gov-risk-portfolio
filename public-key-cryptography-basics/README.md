@@ -1,40 +1,17 @@
 # Public Key Cryptography Basics
 
 This project documents my learning from the TryHackMe room **Public Key Cryptography Basics**.  
-It focuses on how cryptography supports secure communication by providing **authentication, authenticity, integrity, and confidentiality**—core concepts for both real-world cybersecurity and the CompTIA Security+ exam.
+It focuses on how cryptography supports secure communication by providing **authentication, authenticity, integrity, and confidentiality**
 
+Consider a real-life scenario: communicating with your business partner over an online messaging platform, you need to be sure of the following:
 
----
+- **Authentication**: You want to be sure you communicate with the right person, not someone else pretending.
 
-## Security Concepts Explained (Everyday Analogy)
+- **Authenticity**: You can verify that the information comes from the claimed source.
 
-Consider a real-life scenario: meeting a business partner over coffee to discuss confidential plans.
+- **Integrity**: You must ensure that no one changes the data you exchange.
 
-From a security perspective:
-
-- **Authentication**  
-  You can see the person in front of you and confirm they are who they claim to be.
-
-- **Authenticity**  
-  You know the words you hear are coming from your business partner, not someone else nearby.
-
-- **Integrity**  
-  You can be confident that the message is not altered while being communicated across the table.
-
-- **Confidentiality**  
-  By choosing a quiet seat and speaking softly, you prevent others from overhearing the conversation.
-
-These same principles are required in digital communication—but enforcing them online is much harder.
-
----
-
-## The Cybersecurity Challenge
-
-When communicating over a network, such as sending messages or accessing online services, several questions arise:
-
-- How can you be sure the other party is not impersonating someone else?
-- How can you confirm the message was not altered in transit?
-- How can you prevent unauthorized parties from eavesdropping?
+- **Confidentiality**: You want to prevent an unauthorised party from eavesdropping on your conversations.
 
 To address these challenges, modern systems rely on **cryptography**.
 
