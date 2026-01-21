@@ -17,7 +17,26 @@ The **Diffie-Hellman (DH) Key Exchange** solves this problem. It allows two part
 > The key is that an eavesdropper can see all the public information but **cannot compute the shared secret** without knowing the private secrets.
 
 ---
+## Numeric Example: Diffie-Hellman Key Exchange
 
+To illustrate Diffie-Hellman in action:
+
+- Public prime: p = 29  
+- Public generator: g = 5  
+
+Alice chooses a private key a = 12 → calculates her public key:  
+A = g^a mod p = 7
+
+Bob chooses a private key b = 17 → calculates his public key:  
+B = g^b mod p = 9
+
+Each calculates the shared secret key:
+
+- Alice: key = B^a mod p = 9^12 mod 29 = 24  
+- Bob: key = A^b mod p = 7^17 mod 29 = 24
+
+✅ Both arrive at the **same shared secret key: 24**
+---
 ## Why Diffie-Hellman is Useful
 
 - **Secure key agreement:** Lets two parties establish a secret key over an insecure channel.  
