@@ -74,5 +74,5 @@ Each section includes:
 
 ## Public Key Cryptography Commands 
 
-- **[practical commands and examples](commands.md)** 
+- **[Practical Commands and Examples](commands.md)** 
 
