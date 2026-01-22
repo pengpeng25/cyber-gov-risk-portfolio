@@ -1,5 +1,4 @@
 # Task 7: PGP and GPG
-
 ## What is PGP and GPG?
 
 - **PGP (Pretty Good Privacy)**: Software for **encryption, digital signing, and secure communication**  
