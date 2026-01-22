@@ -32,6 +32,9 @@ To address these challenges, modern systems rely on **cryptography**.
  
 - **Digital Signature = Hash + Public Key**
   - Does **not** ensure **confidentiality**
+ 
+- **Public Key Infrastructure (PKI)**
+  - CA verify the public key / certificate
     
 This project focuses on **public key cryptography** and how it is applied in real-world systems.
 
