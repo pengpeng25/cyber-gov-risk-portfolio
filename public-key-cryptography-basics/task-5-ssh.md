@@ -52,3 +52,65 @@ Example using the recommended algorithm:
 
 ```bash
 ssh-keygen -t ed25519
+```
+---
+
+## 🔐 SSH Key Algorithms
+
+Common SSH key algorithms include:
+
+| Algorithm | Description |
+|---------|-------------|
+| RSA | Widely supported, requires large key sizes |
+| ECDSA | Elliptic curve variant of DSA |
+| Ed25519 | Fast, secure, and modern (**recommended**) |
+| `*-SK` | Uses hardware security keys |
+
+---
+
+## 🔒 Private Key Security
+
+SSH private keys must be protected like passwords.
+
+### Best Practices
+- Never share private keys
+- Use a strong passphrase
+- Passphrases are never transmitted over the network
+
+### Required File Permissions
+
+SSH enforces strict permissions on private keys:
+
+```bash
+chmod 600 private_key
+```
+SSH will refuse to use private keys with insecure permissions.
+
+## 🗝️ Authorized Keys on the Server
+
+Public keys trusted by the server are stored in:
+
+```bash
+~/.ssh/authorized_keys
+```
+
+
+- One public key per line
+- Determines which users are allowed to authenticate
+- More secure than password-based authentication
+
+🔐 **Root SSH access** should use key-based authentication only or be disabled entirely.
+
+---
+
+## ⚙️ Common SSH Commands
+
+```bash
+ssh-keygen -t ed25519
+cat ~/.ssh/id_ed25519.pub
+ssh-copy-id user@host
+ssh -i privateKeyFileName user@host
+```
+
+
+
