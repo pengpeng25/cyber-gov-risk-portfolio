@@ -1,0 +1,54 @@
+# Task 7: PGP and GPG
+
+## What is PGP and GPG?
+
+- **PGP (Pretty Good Privacy)**: Software for **encryption, digital signing, and secure communication**  
+- **GPG (GnuPG)**: Open-source implementation of the **OpenPGP standard**  
+- Commonly used to **encrypt emails**, **sign messages**, and **verify integrity**  
+
+> GPG keys can be protected with passphrases, similar to SSH private keys.
+
+---
+
+## How GPG Works
+
+1. **Key Pair**  
+   - **Private key**: Keep secret  
+   - **Public key**: Share with contacts  
+
+2. **Encryption & Decryption**  
+   - Contacts encrypt messages using your **public key**  
+   - You decrypt using your **private key**  
+
+3. **Digital Signing**  
+   - Sign messages/files with your **private key**  
+   - Recipients verify using your **public key**
+
+4. **Backup & Portability**  
+   - Export keys to a secure location:  
+     ```bash
+     gpg --export-secret-keys > backup.key
+     ```
+   - Import on a new machine:  
+     ```bash
+     gpg --import backup.key
+     ```
+
+---
+
+## Practical Example
+
+- Decrypt a message:  
+  ```bash
+  gpg --decrypt confidential_message.gpg
+```
+### Generating a New GPG Key
+
+Creating a new GPG key involves the following steps:
+
+1. **Choose the key’s purpose** – whether to **sign only** or **sign and encrypt**.  
+2. **Select a cryptographic algorithm** – e.g., RSA, DSA, or ECC.  
+3. **Set an expiry date** – to ensure the key is valid for a limited period.  
+4. **Provide user information** – your **name**, **email address**, and an optional **comment** describing the key’s purpose.  
+
+> 🔒 Always keep a **secure backup** of your private key to avoid losing access to encrypted data or signatures.
