@@ -29,7 +29,10 @@ To address these challenges, modern systems rely on **cryptography**.
     - Authenticity
     - Integrity
   - Uses a public/private key pair
-
+ 
+- **Digital Signature = Hash + Public Key**
+  - Does **not** ensure **confidentiality**
+    
 This project focuses on **public key cryptography** and how it is applied in real-world systems.
 
 ---
