@@ -19,8 +19,9 @@ This occurs because the SSH client does not yet recognize the server’s **publi
 
 Once accepted, the server’s public key is stored locally in:
 
+```bash
 ~/.ssh/known_hosts
-
+```
 
 Future connections will only succeed if the server presents the same public key.
 
