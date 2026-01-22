@@ -72,7 +72,7 @@ Each section includes:
 ---
 
 
-## Public Key Cryptography Commands (commands.md)
+## Public Key Cryptography Commands 
 
-
+- **[practical commands and examples](commands.md)** 
 
