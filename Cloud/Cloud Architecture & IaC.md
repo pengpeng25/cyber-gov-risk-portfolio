@@ -1,6 +1,6 @@
 # Cloud Architecture & Infrastructure as Code (IaC)
 
-This repository contains notes and practical explanations on **Infrastructure as Code (IaC)**, **modern cloud architectures**, **service-oriented and microservices design**, and **cloud-edge computing concepts**. It is designed to support **Security+ exam preparation** and demonstrate foundational cybersecurity knowledge for professional opportunities.
+This note focuses on **Infrastructure as Code (IaC)**, **modern cloud architectures**, **service-oriented and microservices design**, and **cloud-edge computing concepts**. 
 
 ---
 
@@ -29,6 +29,8 @@ IaC is a methodology to **manage and provision infrastructure using code**, rath
 
 ## 2️⃣ Service-Oriented Architecture (SOA) and Microservices
 
+The idea behind Service-Oriented Architecture (SOA) and Microservices is to break down a large application into smaller, independent services. This modular approach allows for easier development, testing, deployment, and scaling.
+
 **Definition:**
 - **SOA:** Applications broken into **atomic services** mapped to business workflows. Services often share infrastructure or databases.  
 - **Microservices:** Independently deployable, highly decoupled services. Each service can be updated, scaled, or deployed without affecting others.
@@ -40,9 +42,6 @@ IaC is a methodology to **manage and provision infrastructure using code**, rath
 **Integration & Orchestration:**  
 - Orchestration tools (e.g., Kubernetes, Docker Swarm) coordinate service workflows, manage scaling, and handle failures.
 
-**Who Provides Applications:**
-- **Organizations/Users:** Develop modular applications using SOA/microservices.  
-- **Cloud Service Providers (CSPs):** Provide infrastructure, orchestration platforms, and supporting services, but not the applications themselves.
 
 **Security & Operational Benefits:**
 - Smaller blast radius in case of compromise
