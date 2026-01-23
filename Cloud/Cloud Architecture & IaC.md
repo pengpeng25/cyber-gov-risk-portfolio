@@ -105,25 +105,11 @@ Sending all IoT data to distant cloud servers can cause:
 | Serverless | Cloud functions, pay-per-execution | Simplified operations, automatic scaling |
 | Edge/Fog | Data processing close to the source | Reduced latency, optimized bandwidth usage |
 
-**Exam-Ready Summary:**  
+**Takeaways:**  
 > Infrastructure as Code automates cloud deployments, preventing inconsistent configurations.  
 > SOA and microservices enable modular, scalable applications.  
 > Serverless computing removes server management overhead, while edge and fog computing improve efficiency and reduce latency by processing data near the source.
 
 ---
 
-## 6️⃣ Practical Skills Demonstration (Optional)
 
-- Example IaC script (Terraform):
-```hcl
-provider "aws" {
-  region = "us-east-1"
-}
-
-resource "aws_instance" "web" {
-  ami           = "ami-0c55b159cbfafe1f0"
-  instance_type = "t2.micro"
-  tags = {
-    Name = "ExampleWebServer"
-  }
-}
