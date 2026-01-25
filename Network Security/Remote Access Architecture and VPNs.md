@@ -84,3 +84,107 @@ This lecture focuses on **remote access architecture**, particularly the impleme
 - **TLS VPNs** are suitable for remote user access via browsers or VPN clients.
 - **IPSEC** provides strong network-layer security, with options for **transport** and **tunnel modes**.
 - Understanding the architecture, protocols, and modes of VPNs is critical for protecting remote communications and preparing for the Security+ exam.
+
+---
+## Internet Key Exchange (IKE) – How It Works (Simple Explanation)
+
+IKE is responsible for **setting up and managing secure connections** for IPSEC. It does not encrypt data itself; instead, it helps both sides **agree on how encryption will work**.
+
+---
+
+## IKE Phase 1: Secure Channel Creation
+- The two computers **authenticate each other** (using passwords, certificates, or pre-shared keys).
+- They agree on:
+  - Encryption algorithms
+  - Hashing methods
+  - A shared secret using **Diffie-Hellman**
+- This phase creates a **secure management tunnel** to protect further negotiations.
+
+Think of Phase 1 as:
+> “Let’s prove who we are and create a safe room to talk privately.”
+
+---
+
+## IKE Phase 2: Data Protection Agreement
+- The computers decide **how actual data will be protected**.
+- They agree on:
+  - Whether to use **ESP or AH**
+  - Encryption strength
+  - Session keys for data transfer
+- This phase creates the **IPSEC Security Association (SA)**.
+
+Think of Phase 2 as:
+> “Now that we trust each other, let’s lock down how our data will be encrypted.”
+
+---
+
+## Why IKE Is Important
+- Prevents attackers from:
+  - Spoofing VPN endpoints
+  - Intercepting encryption keys
+- Automatically refreshes keys to reduce risk if a key is compromised
+- Essential for **secure VPN communication**
+
+---
+
+## Exam Tip (Security+)
+- **IKE = key negotiation**
+- **IPSEC = data protection**
+- IKE operates **before** encrypted traffic flows
+- IKE commonly uses **UDP ports 500 and 4500**
+
+---
+
+## Quick Summary
+- IKE authenticates devices
+- IKE negotiates encryption settings
+- IKE creates secure keys for IPSEC
+- IPSEC then encrypts the actual data
+---
+## Key Acronyms – Remote Access & Secure Communication
+
+The following acronyms are essential for understanding remote access architecture, VPNs, and secure communications, and are highly relevant for the Security+ exam.
+
+### Cryptography & Key Exchange
+- **IKE (Internet Key Exchange)**  
+  Handles authentication and negotiates encryption keys for IPSEC connections.
+
+- **IPSEC (Internet Protocol Security)**  
+  A suite of protocols that provides encryption, integrity, and authentication at the network layer.
+
+- **DH (Diffie-Hellman)**  
+  A key exchange method that allows two parties to securely generate a shared secret over an untrusted network.
+
+---
+
+### VPN & Tunneling Protocols
+- **L2TP (Layer 2 Tunneling Protocol)**  
+  A tunneling protocol commonly paired with IPSEC to create secure VPN connections.
+
+---
+
+### Authentication Protocols
+- **EAP (Extensible Authentication Protocol)**  
+  A flexible authentication framework used in VPNs, wireless networks, and enterprise environments.
+
+- **CHAP (Challenge Handshake Authentication Protocol)**  
+  An authentication mechanism that verifies identity using a challenge-response process.
+
+---
+
+### Secure Remote Access
+- **SSH (Secure Shell)**  
+  A protocol that provides encrypted remote command-line access to systems.
+
+- **SFTP (Secure File Transfer Protocol)**  
+  A secure file transfer protocol that runs over SSH, ensuring confidentiality and integrity.
+
+---
+
+## Exam Tip (Security+)
+- **IKE + IPSEC** → VPN security  
+- **DH** → Secure key exchange  
+- **SSH / SFTP** → Secure remote administration  
+- **EAP / CHAP** → Authentication mechanisms
+
+Understanding how these protocols work together is critical for designing and securing remote access architectures.
