@@ -1,3 +1,5 @@
+network-security/Secure Switching and Routing.md
+
 # Secure Switching and Routing (Layer 2 Security)
 
 This file focuses on **security risks and defensive measures in Layer 2 networking**, specifically around switching and routing. It highlights common attacks that exploit trust-based protocols and the controls used to mitigate them. This content is aligned with **Security+ exam objectives** and demonstrates practical network security knowledge.
