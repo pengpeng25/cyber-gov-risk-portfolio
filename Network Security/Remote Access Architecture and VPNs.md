@@ -26,7 +26,7 @@ This lecture focuses on **remote access architecture**, particularly the impleme
 
 ---
 
-## IPSEC Modes
+### IPSEC Modes
 
 1. **Transport Mode**
    - Secures communications **between hosts** on a private network.
@@ -37,7 +37,29 @@ This lecture focuses on **remote access architecture**, particularly the impleme
    - Encrypts the **entire IP packet**, including headers.
 
 ---
+### TLS (Transport Layer Security)
+- TLS, also known as **SSL VPN**, secures **application-layer traffic (Layer 7)** over TCP connections.
+- Requires a remote access server and typically uses **port 443**.
+- Provides **encryption, integrity, and authentication** for application data.
+- Works **on top of TCP** (Layer 4), which ensures reliable data delivery.
 
+### IPSEC (Internet Protocol Security)
+- Operates at the **network layer (Layer 3)** to secure IP packets.
+- Provides **confidentiality, integrity, and authentication**.
+- Two main modes:
+  - **Transport Mode**: Encrypts only the **payload** of the IP packet, used for host-to-host communication.
+  - **Tunnel Mode**: Encrypts the **entire IP packet**, including the header, used for gateway-to-gateway VPNs.
+
+#### Encapsulating Security Payload (ESP)
+- ESP provides **encryption, integrity, and authentication** for IP packets.
+- Think of ESP as a **protective envelope** around your data, ensuring it cannot be read or tampered with in transit.
+
+#### Authentication Header (AH)
+- AH provides **integrity and authentication** for IP packets, like a **wax seal** on an envelope.
+- Operates at **Layer 3 (Network Layer)**.
+- AH does **not provide encryption**, only ensures the packet hasn't been altered.
+
+---
 ## Key Acronyms
 
 | Acronym | Meaning |
