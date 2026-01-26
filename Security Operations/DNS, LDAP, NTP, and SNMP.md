@@ -49,6 +49,7 @@ Common examples include **Active Directory** and **OpenLDAP**.
 ### Securing LDAP
 - **Simple Bind**: basic username/password (insecure alone)
 - **SASL**: stronger authentication mechanisms, which encrypts LDAP traffic over **port 636** to ensure credentials and queries are secure.
+- **STARTTLS**: encryption(sealing) and message integrity(signing).
 - **LDAPS**: LDAP over TLS (encrypted)
 
 **Best Practice:** Always use **LDAPS** to protect credentials and directory queries.
