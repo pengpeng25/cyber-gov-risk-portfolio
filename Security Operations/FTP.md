@@ -40,7 +40,7 @@ This summary focuses on various **file transfer, email, and video services**, al
   - Secure version **POP3S** uses **port 995**.
 
 - **IMAP (Internet Message Access Protocol)**
-  - Manages emails on the server without downloading.
+  - Port **143**: Manages emails on the server without downloading.
   - Secure version **IMAPS** uses **port 993**.
 
 ---
