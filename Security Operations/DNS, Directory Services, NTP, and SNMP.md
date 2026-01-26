@@ -1,6 +1,6 @@
 # Secure Network Services: DNS, Directory Services, NTP, and SNMP
 
-This lecture focuses on **data security and core network services** that are critical to enterprise environments and frequently tested in the **Security+ exam**. These services are foundational to how networks operate, but if misconfigured, they can introduce serious security risks.
+This lecture focuses on **data security and core network services** that are critical to enterprise environments. These services are foundational to how networks operate, but if misconfigured, they can introduce serious security risks.
 
 ---
 
