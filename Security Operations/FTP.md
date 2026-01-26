@@ -1,4 +1,4 @@
-This video lecture focuses on various file transfer, email, and video services, along with their associated protocols and ports.
+Various file transfer, email, and video services, along with their associated protocols and ports
 
 File Transfer Protocols
 - **FTP**: The most popular protocol for transferring files, but lacks security, transmitting credentials in plain text.
