@@ -1,4 +1,4 @@
-# Secure Network Services: DNS, Directory Services, NTP, and SNMP
+# Secure Network Services: DNS, LDAP, NTP, and SNMP
 
 This lecture focuses on **data security and core network services** that are critical to enterprise environments. These services are foundational to how networks operate, but if misconfigured, they can introduce serious security risks.
 
