@@ -1,4 +1,4 @@
-# Secure Coding Practices – Security+ Focus
+# Secure Coding Practices
 
 This lecture focuses on writing secure code to protect applications from vulnerabilities and attacks. Understanding these practices is essential for Security+ preparation and real-world cybersecurity implementation.
 
