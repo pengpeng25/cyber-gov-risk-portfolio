@@ -33,7 +33,7 @@ This summary focuses on various **file transfer, email, and video services**, al
 
 - **SMTPS (Secure SMTP)**
   - Establishes a secure connection before any commands are exchanged.
-  - Typically uses **port 465**.
+  - Typically uses **port 465 deprecated**.
 
 - **POP3 (Post Office Protocol 3)**
   - Downloads emails from server to client.
