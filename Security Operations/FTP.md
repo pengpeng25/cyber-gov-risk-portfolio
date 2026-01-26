@@ -43,6 +43,8 @@ This summary focuses on various **file transfer, email, and video services**, al
   - Port **143**: Manages emails on the server without downloading.
   - Secure version **IMAPS** uses **port 993**.
 
+- **S/MIME (Secure/Multipurpose Internet Message Extensions)**
+  - Encrypt content with asymmetric cryptography
 ---
 
 ## Voice and Video Services
