@@ -1,18 +1,61 @@
-Various file transfer, email, and video services, along with their associated protocols and ports
+# File Transfer, Email, and Video Services Protocols
 
-File Transfer Protocols
-- **FTP**: The most popular protocol for transferring files, but lacks security, transmitting credentials in plain text.
-- **SFTP**: Secure Shell FTP that encrypts authentication and data transfer, using TCP port **22**.
-- **FTPS**: Uses SSL/TLS for security; explicit TLS (FTPES) upgrades an insecure connection on port **21**, while implicit TLS (FTPS) uses port **990**.
+This summary focuses on various **file transfer, email, and video services**, along with their associated protocols and ports.
 
-Email Protocols
-- **SMTP**: Simple Mail Transfer Protocol for sending emails; uses port **25** for message relay and port **587** for message submission.
-- **SMTPS**: Secure SMTP that establishes a secure connection before any commands are exchanged, typically using port **465**.
-- **POP3**: Post Office Protocol for downloading messages; secure version (POP3S) uses port **995**.
-- **IMAP**: Internet Message Access Protocol for managing emails; secure version (IMAPS) uses port **993**.
+---
 
-Voice and Video Services
-- **SIP**: Session Initiation Protocol for managing communication sessions; uses TCP port **5060** for standard and **5061** for secure connections.
-- **RTP**: Real-time Transport Protocol for delivering voice and video data.
+## File Transfer Protocols
 
-This summary highlights the key protocols and their respective ports used in file transfer, email, and video services.
+- **FTP (File Transfer Protocol)**
+  - Most popular protocol for transferring files.
+  - **Not secure**: Transmits credentials in plain text.
+  - Default ports: **21** (control), **20** (data).
+
+- **SFTP (SSH File Transfer Protocol)**
+  - Secure version of FTP over **SSH**.
+  - Encrypts both authentication and data transfer.
+  - Uses **TCP port 22**.
+
+- **FTPS (FTP Secure)**
+  - Uses **SSL/TLS** for security.
+  - **Explicit TLS (FTPES)**: Upgrades insecure connection on **port 21**.
+  - **Implicit TLS (FTPS)**: Secure connection from the start on **port 990**.
+
+---
+
+## Email Protocols
+
+- **SMTP (Simple Mail Transfer Protocol)**
+  - Used for sending emails.
+  - Port **25**: Message relay between servers.
+  - Port **587**: Message submission from client to server.
+  - Can be secured using **STARTTLS**, which upgrades an unencrypted connection to an encrypted one using TLS.
+
+- **SMTPS (Secure SMTP)**
+  - Establishes a secure connection before any commands are exchanged.
+  - Typically uses **port 465**.
+
+- **POP3 (Post Office Protocol 3)**
+  - Downloads emails from server to client.
+  - Secure version **POP3S** uses **port 995**.
+
+- **IMAP (Internet Message Access Protocol)**
+  - Manages emails on the server without downloading.
+  - Secure version **IMAPS** uses **port 993**.
+
+---
+
+## Voice and Video Services
+
+- **SIP (Session Initiation Protocol)**
+  - Manages communication sessions (voice/video calls).
+  - Port **5060**: Standard.
+  - Port **5061**: Secure (TLS).
+
+- **RTP (Real-time Transport Protocol)**
+  - Delivers voice and video data in real-time.
+  - Often used in conjunction with SIP.
+
+---
+
+This summary highlights the key protocols and their respective ports used in **file transfer, email, and voice/video services**, emphasizing security considerations where applicable.
