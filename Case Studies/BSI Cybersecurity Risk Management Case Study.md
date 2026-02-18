@@ -1,6 +1,6 @@
-# 📌 BSI Cybersecurity Risk Management Case Study
+# BSI Cybersecurity Risk Management Case Study
 
-## 📖 Project Overview
+## Project Overview
 
 This project presents a comprehensive **Cybersecurity Risk Management Program** for Business Supplies, Inc. (BSI), a regional logistics organization transitioning into a digital-first enterprise.
 
@@ -10,7 +10,7 @@ The engagement demonstrates applied risk assessment, governance design, executiv
 
 ---
 
-## 🔍 The Problem: “Growth Outpacing Governance”
+## The Problem: “Growth Outpacing Governance”
 
 BSI’s operational expansion and digital transformation outpaced its cybersecurity maturity, resulting in several critical gaps:
 
@@ -29,7 +29,7 @@ These conditions elevated the organization’s exposure to financial disruption,
 
 ---
 
-## 🛠️ Solution & Framework: ISO/IEC 27001
+## Solution & Framework: ISO/IEC 27001
 
 ISO/IEC 27001 was selected to establish a formal **Information Security Management System (ISMS)**.
 
@@ -48,9 +48,9 @@ The implementation shifts cybersecurity from an IT support function to an enterp
 
 ---
 
-## 📊 Methodology & Key Artifacts
+## Methodology & Key Artifacts
 
-### 1️⃣ Weighted Asset Prioritization
+### Weighted Asset Prioritization
 
 A quantitative scoring model was developed to evaluate **23 technical assets**, which were consolidated into **8 executive-level business bundles**.
 
@@ -68,7 +68,7 @@ This model ensured risk prioritization aligned with business impact rather than 
 
 ---
 
-### 2️⃣ Threat Landscape Analysis
+### Threat Landscape Analysis
 
 Threats were ranked using weighted evaluation based on:
 
@@ -86,7 +86,7 @@ The analysis highlighted human vulnerability and infrastructure obsolescence as 
 
 ---
 
-### 3️⃣ Risk Heat Map (Likelihood × Impact)
+###  Risk Heat Map (Likelihood × Impact)
 
 A quantitative **Risk Matrix (L × I)** identified multiple “Red Zone” exposures (Score = 25), indicating business-critical risk concentrations.
 
@@ -99,7 +99,7 @@ These represent high-likelihood, high-impact scenarios capable of causing operat
 
 ---
 
-## 🗓️ 12-Month Mitigation Roadmap
+## 12-Month Mitigation Roadmap
 
 A phased remediation plan was designed to reduce red-zone exposure by more than **40% within the first year**.
 
@@ -122,19 +122,7 @@ A phased remediation plan was designed to reduce red-zone exposure by more than 
 This roadmap transitions BSI from reactive IT management to continuous risk governance.
 
 ---
+ 
 
-## 🧠 
 
-This case study demonstrates applied competencies in:
-
-- Enterprise risk assessment  
-- Asset classification and prioritization  
-- Quantitative risk modeling  
-- Threat taxonomy development  
-- Control gap analysis  
-- ISO 27001 alignment  
-- Executive-level reporting  
-- Remediation roadmap planning  
-
----
 
